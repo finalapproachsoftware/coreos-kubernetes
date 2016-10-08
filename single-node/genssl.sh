@@ -4,7 +4,7 @@ PATH=/usr/bin:/usr/local/bin
 
 set -e
 
-CLUSTER_IP="10.2.2.10"
+CLUSTER_IP="10.3.0.1"
 NODE_IP="172.17.4.99"
 
 mkdir -p ssl && ./../lib/init-ssl-ca ssl || echo "failed generating SSL CA artifacts"
